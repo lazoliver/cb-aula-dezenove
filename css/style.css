@@ -70,7 +70,6 @@ table{
 }
 a,
 a:hover{
-  color:#000;
   text-decoration:none;
   cursor:pointer;
 }
@@ -138,12 +137,26 @@ input{box-sizing: border-box;}
     background-color: #000000;
     color: #ffffff;
 }
+/* home */
+.home{
+    display: flex;
+    background-image: url(../images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+}
+.home h1{
+    position: absolute;
+    top: 40%;
+}
 /* footer */
 footer{
-    position: fixed;
+    background-color: #ffffff;
     bottom: 0;
     left: 0;
     right: 0;
+    position: fixed;
 }
 .f-home{
     display: flex;
