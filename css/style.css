@@ -114,13 +114,14 @@ input[type="tel"]:placeholder,
 input[type="search"]:placeholder,
 input[type="url"]:placeholder{color:#000;}
 input{box-sizing: border-box;}
-img{width: 100%;}
+/* Estilização */
+
 /* Container */
 .container{
     max-width: 100%;
     padding: 0 16px;
 }
-/* Estilização */
+/* botões */
 .btn{
     align-items: center;
     border: 2px solid #000000;
@@ -136,4 +137,20 @@ img{width: 100%;}
 .btn-black{
     background-color: #000000;
     color: #ffffff;
+}
+/* footer */
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.f-home{
+    display: flex;
+    gap: 9px;
+}
+footer a{
+    margin: 20px 0 33px;
+    padding: 19px;
+    width: 50%;
 }
