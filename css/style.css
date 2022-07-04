@@ -114,6 +114,7 @@ input[type="tel"]:placeholder,
 input[type="search"]:placeholder,
 input[type="url"]:placeholder{color:#000;}
 input{box-sizing: border-box;}
+img{width: 100%;}
 /* Container */
 .container{
     max-width: 100%;
