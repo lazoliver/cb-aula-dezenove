@@ -150,6 +150,20 @@ input{box-sizing: border-box;}
     position: absolute;
     top: 40%;
 }
+.home section{
+    bottom: 0;
+    display: flex;
+    gap: 8px;
+    left: 0;
+    margin: 0 0 125px 16px;
+    position: absolute;
+}
+article p{
+    font: 400 11px/13px 'Roboto';
+}
+article .bold{
+    font: 700 13px/15px 'Roboto';
+}
 /* footer */
 footer{
     background-color: #ffffff;
