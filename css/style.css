@@ -80,14 +80,13 @@ input[type="email"],
 input[type="tel"],
 input[type="search"],
 input[type="url"],
+input[type="password"],
 textarea,
 select{
-  border:0;
-  border-bottom:1px solid #000;
-  color:#000;
-  padding:8px 0;
-  font:14px Arial, Helvetica, sans-serif;
-  background:transparent;
+  border:2px solid #000000;
+  color:#000000;
+  padding:17px;
+  font: 400 15px/18px 'Roboto';
   width:100%;
 }
 input[type="text"]:focus,
@@ -95,24 +94,25 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 input[type="search"]:focus,
 input[type="url"]:focus,
+input[type="password"]:focus,
 textarea:focus,
 select:focus{border-color:#900;}
 input[type="submit"],
 input[type="button"],
 button{
-  border:1px solid #000;
+  border:2px solid #000;
   text-transform:uppercase;
-  padding:10px 30px;
   color:#000;
-  font:12px Arial, Helvetica, sans-serif;
-  background:transparent;
+  font: 400 15px/18px 'Roboto';
+  width: 100%;
 }
 input[type="text"]:placeholder,
 input[type="email"]:placeholder,
 input[type="tel"]:placeholder,
 input[type="search"]:placeholder,
 input[type="url"]:placeholder{color:#000;}
-input{box-sizing: border-box;}
+input{box-sizing: border-box}
+input::placeholder{color: #000000;}
 /* Estilização */
 
 /* Container */
@@ -121,7 +121,7 @@ input{box-sizing: border-box;}
     padding: 0 16px;
 }
 /* voltar - registro*/
-.back img{
+.btn-back img{
     padding-top: 16px;
 }
 /* h1 - registro */
@@ -191,4 +191,13 @@ footer a{
     margin: 20px 0 33px;
     padding: 19px;
     width: 50%;
+}
+/* form */
+input{
+    margin-bottom: 16px;
+}
+form a{
+    display: block;
+    padding: 19px 0;
+    width: 100%;
 }
