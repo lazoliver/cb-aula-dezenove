@@ -120,20 +120,25 @@ input::placeholder{color: #000000;}
     max-width: 100%;
     padding: 0 16px;
 }
-/* voltar - registro*/
+/* voltar - registro */
 .btn-back img{
     padding-top: 16px;
 }
-/* h1 - registro */
+/* h1 - registro/discover */
 .h1{
     color: #000000;
     font: 400 36px/40px 'Comfortaa';
     letter-spacing: -0.015em;
     margin: 32px 0;
 }
+/* h2 - discover*/
 .h2{
     font: 900 13px/15px 'Roboto';
     margin-bottom: 24px;
+}
+/* bold - home/discover*/
+.bold{
+    font: 700 13px/15px 'Roboto';
 }
 /* botões */
 .btn{
@@ -174,10 +179,8 @@ input::placeholder{color: #000000;}
     position: absolute;
 }
 article p{
+    color: rgba(0, 0, 0, 0.8);
     font: 400 11px/13px 'Roboto';
-}
-article .bold{
-    font: 700 13px/15px 'Roboto';
 }
 /* footer */
 footer{
@@ -212,4 +215,15 @@ form p{
 }
 form span{
     text-decoration: underline;
+}
+/* discover */
+.discover{
+    display: flex;
+    gap: 16px;
+    overflow: scroll;
+}
+.discover article{
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
 }
