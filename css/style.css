@@ -224,9 +224,9 @@ form span{
     overflow: scroll;
     margin-bottom: 48px;
 }
-.discover section, section figure img{min-width: 100%;}
+.discover section{min-width: 100%;}
 section article{
-    display: flex;
+    display: inline-flex;
     gap: 8px;
     margin-top: 16px;
 }
