@@ -241,7 +241,7 @@ section article{
     display: grid;
     gap: 10px;
 }
-figure img{width: 100%;}
+.grid img, figure img{width: 100%;}
 /* footer - discover */
 .menu{
     box-shadow: 0px -0.5px 0px rgba(0, 0, 0, 0.3);
