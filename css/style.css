@@ -135,6 +135,7 @@ input::placeholder{color: #000000;}
 .h2{
     font: 900 13px/15px 'Roboto';
     margin-bottom: 24px;
+    text-transform: uppercase;
 }
 /* bold - home/discover*/
 .bold{
@@ -221,8 +222,10 @@ form span{
     display: flex;
     gap: 16px;
     overflow: scroll;
+    margin-bottom: 48px;
 }
-.discover article{
+.discover section, section figure img{min-width: 100%;}
+section article{
     display: flex;
     gap: 8px;
     margin-top: 16px;
