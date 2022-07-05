@@ -221,7 +221,7 @@ form span{
 .stories{
     display: flex;
     gap: 16px;
-    overflow: scroll;
+    overflow-x: scroll;
     margin-bottom: 48px;
 }
 .stories section{min-width: 100%;}
