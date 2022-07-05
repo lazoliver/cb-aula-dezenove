@@ -131,6 +131,10 @@ input::placeholder{color: #000000;}
     letter-spacing: -0.015em;
     margin: 32px 0;
 }
+.h2{
+    font: 900 13px/15px 'Roboto';
+    margin-bottom: 24px;
+}
 /* botões */
 .btn{
     align-items: center;
