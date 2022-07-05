@@ -113,7 +113,6 @@ input[type="search"]:placeholder,
 input[type="url"]:placeholder{color:#000;}
 input{box-sizing: border-box}
 input::placeholder{color: #000000;}
-img{width: 100%;}
 /* Estilização */
 
 /* Container */
@@ -199,7 +198,7 @@ footer{
     display: flex;
     gap: 9px;
 }
-footer a{
+.footer a{
     margin: 20px 0 33px;
     padding: 19px;
     width: 50%;
@@ -219,13 +218,13 @@ form span{
     text-decoration: underline;
 }
 /* discover */
-.discover{
+.stories{
     display: flex;
     gap: 16px;
     overflow: scroll;
     margin-bottom: 48px;
 }
-.discover section{min-width: 100%;}
+.stories section{min-width: 100%;}
 section article{
     display: inline-flex;
     gap: 8px;
@@ -243,3 +242,18 @@ section article{
     gap: 10px;
 }
 .grid img{width: 100%;}
+/* footer - discover */
+.menu{
+    box-shadow: 0px -0.5px 0px rgba(0, 0, 0, 0.3);
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul li a{
+    display: block;
+    margin: 9px 0 34px 0;
+}
+.discover{
+    margin-bottom: 115px;
+}
