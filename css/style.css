@@ -120,6 +120,17 @@ input{box-sizing: border-box;}
     max-width: 100%;
     padding: 0 16px;
 }
+/* voltar - registro*/
+.back img{
+    padding-top: 16px;
+}
+/* h1 - registro */
+.h1{
+    color: #000000;
+    font: 400 36px/40px 'Comfortaa';
+    letter-spacing: -0.015em;
+    margin: 32px 0;
+}
 /* botões */
 .btn{
     align-items: center;
