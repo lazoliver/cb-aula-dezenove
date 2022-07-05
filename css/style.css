@@ -200,4 +200,12 @@ form a{
     display: block;
     padding: 19px 0;
     width: 100%;
+    margin-bottom: 32px;
+}
+form p{
+    color: #000000;
+    font: 400 13px/18px 'Roboto';
+}
+form span{
+    text-decoration: underline;
 }
