@@ -224,9 +224,15 @@ form span{
     overflow-x: scroll;
     margin-bottom: 48px;
 }
-.stories section{min-width: 100%;}
+.stories article{min-width: 100%;}
+.story figure{
+    margin-bottom: 16px;
+}
+.story > section{
+    display: flex;
+    gap: 8px
+}
 section article{
-    display: inline-flex;
     gap: 8px;
     margin-top: 16px;
 }
