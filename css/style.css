@@ -134,6 +134,7 @@ input::placeholder{color: #000000;}
 /* h2 - discover*/
 .h2{
     font: 900 13px/15px 'Roboto';
+    margin-top: 16px;
     margin-bottom: 24px;
     text-transform: uppercase;
 }
@@ -239,13 +240,10 @@ section article{
 /* grid - discover */
 .grid{
     display: grid;
-    gap: 9px;
-    grid-template-columns: 1fr 1fr;
     margin-bottom: 32px;
 }
 .grid figure{
     display: grid;
-    gap: 10px;
 }
 .grid img, figure img{width: 100%;}
 /* footer - discover */
@@ -260,6 +258,21 @@ ul li a{
     display: block;
     margin: 9px 0 34px 0;
 }
-.discover{
-    margin-bottom: 115px;
+.see-more{
+    margin-bottom: 118px;
+}
+/* col */
+.col-2{
+    gap: 9px;
+    grid-template-columns: 1fr 1fr;
+}
+.col-2 figure{
+    gap: 10px;
+}
+.col-3{
+    gap: 11px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-3 figure{
+    gap: 11px;
 }
