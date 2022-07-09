@@ -275,3 +275,24 @@ ul li a{
 .col-3 figure{
     gap: 11px;
 }
+/* profile */
+.profile section{margin: 32px 0;}
+.profile .me{
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+}
+.profile .me img{
+    width: fit-content;
+}
+.profile h1, .profile h2{text-align: center;}
+.profile h1{
+    font: 400 36px/40px 'Comfortaa';
+}
+.profile h2{
+    font: 900 13px/15px 'Roboto';
+    margin-top: 16px;
+}
+.profile .btn-black{
+    margin-bottom: 16px;
+}
