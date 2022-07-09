@@ -25,12 +25,19 @@
 
         <!--main-->
         <main class="container">
-            <form action="post">
+            <form action="post" id="form">
                 <input type="email" placeholder="jane@example.com">
                 <input type="password" placeholder="••••••••••••">
-                <a href="signup.html" class="btn btn-black">next</a>
+                <a href="#" class="btn btn-black" id="next">next</a>
+                <a href="login.html" class="btn btn-black" id="login">sign up</a>
+                <p id="policy">
+                    By signing up, you agree to Photo’s <span>Terms of Service</span> and <span>Privacy Policy</span>.
+                </p>
             </form>
         </main>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="../js/script.js"></script>
 
     </body>
 

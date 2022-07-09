@@ -27,4 +27,10 @@ $(document).ready(function(){
         $(".see-more").show();
         $(".full-discovery").hide();
     });
+    $("#next").click(function(){
+        $("#next").hide();
+        $("input[type='password']").hide();
+        $("#policy").show();
+        $("#login").attr("style", "display: block");
+    });
 });
