@@ -125,14 +125,14 @@ input::placeholder{color: #000000;}
     padding-top: 16px;
 }
 /* h1 - registro/discover */
-.h1{
+.text-h1{
     color: #000000;
     font: 400 36px/40px 'Comfortaa';
     letter-spacing: -0.015em;
     margin: 32px 0;
 }
 /* h2 - discover*/
-.h2{
+.text-h2{
     font: 900 13px/15px 'Roboto';
     margin-top: 16px;
     margin-bottom: 24px;
@@ -347,4 +347,7 @@ ul li a{
     font: 400 13px/18px 'Roboto';
     margin: 16px 20px 16px 16px;
     max-width: 93%;
+}
+.profile h2{
+    text-transform: uppercase;
 }
