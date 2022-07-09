@@ -363,3 +363,12 @@ ul li a{
     max-width: 100vw;
     max-height: 100vh;
 }
+.full-story section:first-child, .full-discovery section:first-child{
+    color: #fff;
+    display: flex;
+    gap: 8px;
+    padding: 16px 0;
+    position: fixed;
+    margin: 0 16px;
+    top: 0;
+}
