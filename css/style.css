@@ -96,7 +96,7 @@ input[type="search"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
-select:focus{border-color:#900;}
+select:focus{border-color:#000;}
 input[type="submit"],
 input[type="button"],
 button{
@@ -233,7 +233,7 @@ form span{
     display: flex;
     gap: 8px
 }
-section article{
+.story{
     gap: 8px;
     margin-top: 16px;
 }
