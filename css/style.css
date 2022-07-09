@@ -355,3 +355,11 @@ ul li a{
 .profile h2{
     text-transform: uppercase;
 }
+/* full-story-um */
+.full-story, .full-discovery{
+    display: none;
+}
+.full-story figure img, .full-discovery figure img{
+    max-width: 100vw;
+    max-height: 100vh;
+}

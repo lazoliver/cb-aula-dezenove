@@ -7,4 +7,24 @@ $(document).ready(function(){
         $(".chat-messages").show();
         $(".chats").hide();
     });
+    $("#story-um").click(function(){
+        $(".menu").hide();
+        $(".see-more").hide();
+        $(".full-story").show();
+    });
+    $(".full-story").click(function(){
+        $(".menu").show();
+        $(".see-more").show();
+        $(".full-story").hide();
+    });
+    $("#discovery-dois").click(function(){
+        $(".menu").hide();
+        $(".see-more").hide();
+        $(".full-discovery").show();
+    });
+    $(".full-discovery").click(function(){
+        $(".menu").show();
+        $(".see-more").show();
+        $(".full-discovery").hide();
+    });
 });
