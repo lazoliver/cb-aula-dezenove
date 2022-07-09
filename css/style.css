@@ -298,6 +298,7 @@ ul li a{
 }
 /* chat */
 .chat{
+    display: block;
     font: 900 17px/22px 'Source Sans Pro';
     padding: 11px 0;
     text-align: center;
@@ -328,6 +329,9 @@ ul li a{
     padding: 12px 9px;
     position: absolute;
     z-index: 10;
+}
+.chats{
+    display: none;
 }
 .chats section{
     display: flex;

@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#message-um").click(function(){
+        $(".chat-messages").hide();
+        $(".chats").show();
+    });
+    $(".msg-back").click(function(){
+        $(".chat-messages").show();
+        $(".chats").hide();
+    });
+});
