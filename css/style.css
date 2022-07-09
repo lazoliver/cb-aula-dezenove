@@ -332,21 +332,19 @@ ul li a{
 }
 .chats{
     display: none;
+    margin-bottom: 24px;
 }
 .chats section{
     display: flex;
     gap: 16px;
-    margin-bottom: 24px
 }
 .chats img{
     width: fit-content;
 }
 .chats section article{
     background: rgba(0, 0, 0, 0.03);
-    width: 100%;
 }
 .chats section article p{
-    border-radius: 0px 6px 6px 6px;
     color: #000;
     font: 400 13px/18px 'Roboto';
     margin: 16px 20px 16px 16px;
@@ -371,4 +369,10 @@ ul li a{
     position: fixed;
     margin: 0 16px;
     top: 0;
+}
+.border-left{
+    border-radius: 0px 6px 6px 6px;
+}
+.border-right{
+    border-radius: 6px 0px 6px 6px;
 }
