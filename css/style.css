@@ -296,3 +296,30 @@ ul li a{
 .profile .btn-black{
     margin-bottom: 16px;
 }
+/* chat */
+.chat{
+    font: 900 17px/22px 'Source Sans Pro';
+    padding: 11px 0;
+    text-align: center;
+}
+.message{
+    display: flex;
+    gap: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.message figure{
+    min-width: 64px;
+}
+.message article h3{
+    font: 700 13px/18px 'Roboto';
+    margin-bottom: 6px;
+}
+.message article p{
+    color: #000;
+    font: 400 13px/18px 'Roboto';
+    width: 87%;
+}
+.border{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+}
