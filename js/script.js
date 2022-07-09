@@ -33,4 +33,7 @@ $(document).ready(function(){
         $("#policy").show();
         $("#login").attr("style", "display: block");
     });
+    $("#more").click(function(){
+        $(".none").attr("style", "display:grid", 2000);
+    });
 });
