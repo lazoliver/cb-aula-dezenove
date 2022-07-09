@@ -318,8 +318,33 @@ ul li a{
 .message article p{
     color: #000;
     font: 400 13px/18px 'Roboto';
-    width: 87%;
 }
 .border{
     border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+}
+/* chats */
+.private{margin-bottom: 32px;}
+.msg-back{
+    padding: 12px 9px;
+    position: absolute;
+    z-index: 10;
+}
+.chats section{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px
+}
+.chats img{
+    width: fit-content;
+}
+.chats section article{
+    background: rgba(0, 0, 0, 0.03);
+    width: 100%;
+}
+.chats section article p{
+    border-radius: 0px 6px 6px 6px;
+    color: #000;
+    font: 400 13px/18px 'Roboto';
+    margin: 16px 20px 16px 16px;
+    max-width: 93%;
 }
