@@ -34,6 +34,6 @@ $(document).ready(function(){
         $("#login").attr("style", "display: block");
     });
     $("#more").click(function(){
-        $(".none").attr("style", "display:grid", 2000);
+        $(".none").attr("style", "display:grid", "gap: 11px");
     });
 });
