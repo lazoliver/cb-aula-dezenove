@@ -27,10 +27,15 @@ $(document).ready(function(){
         $(".see-more").show();
         $(".full-discovery").hide();
     });
+    // form register
     $("#next").click(function(){
+        // esconder
         $("#next").hide();
+        $("input[type='email']").hide();
         $("input[type='password']").hide();
+        // mostrar
         $("#policy").show();
+        $("input[type='text']").show();
         $("#login").attr("style", "display: block");
     });
     $("#more").click(function(){

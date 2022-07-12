@@ -355,7 +355,7 @@ ul li a{
     text-transform: uppercase;
 }
 /* full-story-um */
-.full-story, .full-discovery, #login, #form p, .none{
+.full-story, .full-discovery, .none{
     display: none;
 }
 .full-story figure img, .full-discovery figure img{
