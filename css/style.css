@@ -110,9 +110,9 @@ input[type="text"]:placeholder,
 input[type="email"]:placeholder,
 input[type="tel"]:placeholder,
 input[type="search"]:placeholder,
-input[type="url"]:placeholder{color:#000;}
+input[type="url"]:placeholder{color: rgba(0, 0, 0, 0.5);;}
 input{box-sizing: border-box}
-input::placeholder{color: #000000;}
+input::placeholder{color: rgba(0, 0, 0, 0.5);}
 /* Estilização */
 
 /* Container */
